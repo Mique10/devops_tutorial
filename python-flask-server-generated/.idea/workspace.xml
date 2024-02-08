@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9aac880-8206-4f0d-a7d5-f7015472a25f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/swagger_server/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/__main__.py" afterDir="false" />
-    </list>
+    <list default="true" id="c9aac880-8206-4f0d-a7d5-f7015472a25f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707401710405</updated>
-      <workItem from="1707401714366" duration="1750000" />
+      <workItem from="1707401714366" duration="2113000" />
     </task>
     <servers />
   </component>
