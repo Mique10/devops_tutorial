@@ -108,18 +108,19 @@ components:
           type: string
           example: Milan
         last_name:
-          type: integer
+          type: string
+          example: Kopp
         grade_records:
           type: array
           items:
             $ref: '#/components/schemas/GradeRecord'
       example:
-        last_name: 0
+        last_name: Kopp
         id: 1
         grade_records:
-        - grade: 6.0274563
+        - grade: 0.8008282
           subject_name: subject_name
-        - grade: 6.0274563
+        - grade: 0.8008282
           subject_name: subject_name
         first_name: Milan
     GradeRecord:
@@ -136,6 +137,6 @@ components:
           type: number
           format: float
       example:
-        grade: 6.0274563
+        grade: 0.8008282
         subject_name: subject_name
 

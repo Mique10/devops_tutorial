@@ -15,7 +15,7 @@ class Student(Model):
 
     Do not edit the class manually.
     """
-    def __init__(self, id: int=None, first_name: str=None, last_name: int=None, grade_records: List[GradeRecord]=None):  # noqa: E501
+    def __init__(self, id: int=None, first_name: str=None, last_name: str=None, grade_records: List[GradeRecord]=None):  # noqa: E501
         """Student - a model defined in Swagger
 
         :param id: The id of this Student.  # noqa: E501
@@ -23,14 +23,14 @@ class Student(Model):
         :param first_name: The first_name of this Student.  # noqa: E501
         :type first_name: str
         :param last_name: The last_name of this Student.  # noqa: E501
-        :type last_name: int
+        :type last_name: str
         :param grade_records: The grade_records of this Student.  # noqa: E501
         :type grade_records: List[GradeRecord]
         """
         self.swagger_types = {
             'id': int,
             'first_name': str,
-            'last_name': int,
+            'last_name': str,
             'grade_records': List[GradeRecord]
         }
 
@@ -101,22 +101,22 @@ class Student(Model):
         self._first_name = first_name
 
     @property
-    def last_name(self) -> int:
+    def last_name(self) -> str:
         """Gets the last_name of this Student.
 
 
         :return: The last_name of this Student.
-        :rtype: int
+        :rtype: str
         """
         return self._last_name
 
     @last_name.setter
-    def last_name(self, last_name: int):
+    def last_name(self, last_name: str):
         """Sets the last_name of this Student.
 
 
         :param last_name: The last_name of this Student.
-        :type last_name: int
+        :type last_name: str
         """
         if last_name is None:
             raise ValueError("Invalid value for `last_name`, must not be `None`")  # noqa: E501
