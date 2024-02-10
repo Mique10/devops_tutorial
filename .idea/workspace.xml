@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9aac880-8206-4f0d-a7d5-f7015472a25f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postman/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-flask-server-generated/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/controllers/default_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/controllers/default_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/models/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/models/student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/service/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/service/student_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/milan/OneDrive/Documents/School/Master/Devops/devops_tutorial/python-flask-server-generated/swagger_server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/milan/OneDrive/Documents/School/Master/Devops/devops_tutorial&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1707401710405</updated>
       <workItem from="1707401714366" duration="3359000" />
+      <workItem from="1707406188494" duration="797000" />
+      <workItem from="1707506788143" duration="174000" />
+      <workItem from="1707602309437" duration="317000" />
     </task>
     <servers />
   </component>
@@ -58,6 +74,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/devops_tutorial$student_service.coverage" NAME="student_service Coverage Results" MODIFIED="1707406378463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/service" />
+    <SUITE FILE_PATH="coverage/devops_tutorial$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1707406383556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
     <SUITE FILE_PATH="coverage/python_flask_server_generated$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1707405159302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
   </component>
 </project>

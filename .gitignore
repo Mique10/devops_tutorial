@@ -63,4 +63,4 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
-python-flask-server-generated-old/
+old/
