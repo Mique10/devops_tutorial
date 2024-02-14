@@ -11,6 +11,8 @@ info:
 servers:
 - url: https://virtserver.SwaggerHub.com/tutorial/1.0.0
   description: SwaggerHub API Auto Mocking
+- url: http://localhost:8080/tutorial/1.0.0/ui/
+  description: local API mocking
 paths:
   /student/{student_id}:
     get:
